@@ -1,4 +1,4 @@
-package Introduction_In_Java;
+package Introduction_To_Java;
 
 public class String_Number {
     public static void main(String[] args) {
