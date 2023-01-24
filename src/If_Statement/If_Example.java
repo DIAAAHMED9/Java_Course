@@ -5,32 +5,34 @@ import java.util.Scanner;
 public class If_Example {
     public static void main(String[] args) {
 
-//        Exanple #3
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the First Number");
-        int num1 = scanner.nextInt();
-        System.out.println("Enter the operation");
-        String ope = scanner.next();
-        System.out.println("Enter the Second Number");
-        int num2 = scanner.nextInt();
-        int result = 0;
-        if (ope.equals("*")) {
-            result = num1 * num2;
-            System.out.println("The result is " + result);
 
-            if (6 < 9) {
-                System.out.println("correct");
-            }
-        } else if (ope.equals("+")) {
-            result = num1 + num2;
-        } else if (ope.equals("-")) {
-            result = num1 - num2;
-        } else if (ope.equals("/")) {
-            result = num1 / num2;
-        } else {
-            System.out.println("Error");
-        }
-        System.out.println("The result is " + result);
+//
+////        Example #3
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter the First Number");
+//        int num1 = scanner.nextInt();
+//        System.out.println("Enter the operation");
+//        String ope = scanner.next();
+//        System.out.println("Enter the Second Number");
+//        int num2 = scanner.nextInt();
+//        int result = 0;
+//        if (ope.equals("*")) {
+//            result = num1 * num2;
+//            System.out.println("The result is " + result);
+//
+//            if (6 < 9) {
+//                System.out.println("correct");
+//            }
+//        } else if (ope.equals("+")) {
+//            result = num1 + num2;
+//        } else if (ope.equals("-")) {
+//            result = num1 - num2;
+//        } else if (ope.equals("/")) {
+//            result = num1 / num2;
+//        } else {
+//            System.out.println("Error");
+//        }
+//        System.out.println("The result is " + result);
 
 
 //        Example #2

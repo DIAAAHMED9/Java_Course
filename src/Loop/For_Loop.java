@@ -20,5 +20,13 @@ public class For_Loop {
             } //end j
             System.out.println();
         } //end i
+
+//        infinity  for loop
+        for (; ; ) {
+            System.out.println("Diaa");
+        }
+
     }
+
+
 }
