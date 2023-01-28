@@ -156,5 +156,20 @@ public class String_Number {
 //        int ;
 
 
+
+//
+//        String name = null;
+//        System.out.println(name);
+//        int num = 0;
+//        System.out.println(num);
+//        float num1 = 0.0f;
+//        System.out.println(num1);
+//        char nam1 = 0;
+//        System.out.println(nam1);
+//        boolean tr = false ;
+//        System.out.println(tr);
+
+
+
     }
 }
