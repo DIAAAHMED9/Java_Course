@@ -4,7 +4,16 @@ public class Patent extends Hospital {
     public String pa_name;
     public int pa_id;
 
-
+    @Override
+    public String toString() {
+        return "Patent{" +
+                "pa_name='" + pa_name + '\'' +
+                ", pa_id=" + pa_id +
+                ", id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 
     public String print (){
         System.out.println("Patent id "+ this.getPa_name());
@@ -38,7 +47,7 @@ public class Patent extends Hospital {
         return pa_id;
     }
 
-    public void setPa_id() {
+    public void setPa_id(int i) {
         this.pa_id = pa_id;
     }
 }

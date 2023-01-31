@@ -5,14 +5,22 @@ public class Hospital {
     public String name;
     public String address;
 
+    @Override
+    public String toString() {
+        return "Hospital{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 
-
-    public String print(){
-        System.out.println("Hospital id "+ this.getId());
-        System.out.println("Hospital name "+ this.getName());
+    public  String print() {
+        System.out.println("Hospital id " + this.getId());
+        System.out.println("Hospital name " + this.getName());
         return null;
 
     }
+
     public Hospital() {
     }
 
@@ -26,6 +34,7 @@ public class Hospital {
         this.id = id;
         this.name = name;
     }
+
 
     public int getId() {
         return id;

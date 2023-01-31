@@ -6,10 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Hospital h1 = new Patent();
 
 
-//        Doctor d1 = new Patent();
+
+
+
+
+
+
+
 //
 //
 //        p1.print();
@@ -20,6 +25,9 @@ public class Main {
 //        System.out.println(p1.address);
 //        System.out.println("_______________________");
 //        System.out.println(d1.id);
+
+
+
 
 
     }
