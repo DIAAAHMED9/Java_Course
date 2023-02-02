@@ -1,9 +1,18 @@
 package Inheretance;
 
-public class Hospital {
-    public int id;
-    public String name;
-    public String address;
+public abstract class Hospital {
+    private int id;
+    private String name;
+    private String address;
+
+
+    public abstract void abb();
+
+    public abstract String abb1();
+
+    public void get() {
+        System.out.println("Test Hospital ");
+    }
 
     @Override
     public String toString() {
@@ -14,7 +23,7 @@ public class Hospital {
                 '}';
     }
 
-    public  String print() {
+    public String print() {
         System.out.println("Hospital id " + this.getId());
         System.out.println("Hospital name " + this.getName());
         return null;

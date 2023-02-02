@@ -1,31 +1,27 @@
 package Inheretance;
 
 public class Doctor extends Hospital {
-    public String dr_name;
-    public int dr_id;
+
+    String dr_name;
+    int dr_id;
 
 
+    @Override
+    public void abb() {
 
-
-    public Doctor() {
     }
 
-    public Doctor(int id, String name, String address) {
-        super(id, name, address);
-    }
-
-    public Doctor(int id, String name) {
-        super(id, name);
-    }
-
-
-    public String print (){
-        System.out.println("Doctor id "+ this.getDr_id());
-        System.out.println("Doctor name "+ this.getDr_name());
-
+    @Override
+    public String abb1() {
         return null;
     }
 
+    public String print() {
+        System.out.println("Doctor id " + this.getDr_id());
+        System.out.println("Doctor name " + this.getDr_name());
+
+        return null;
+    }
 
     public String getDr_name() {
         return dr_name;
